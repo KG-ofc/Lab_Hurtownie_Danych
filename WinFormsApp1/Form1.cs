@@ -32,7 +32,9 @@ namespace WinFormsApp1
         {
            if(ofd.ShowDialog() == DialogResult.OK) 
             {
-                this.textBox1.Text = ofd.FileName;
+                this.textBox1.Text = ofd.FileName;  //test tu jest
+
+                int czytosieklika = 0;
             }
         }
 
